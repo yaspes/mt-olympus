@@ -1,0 +1,14 @@
+body {
+    background: rgb(175, 174, 174);
+}
+
+.jumbotron {
+    background: url('../img/ski3.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
