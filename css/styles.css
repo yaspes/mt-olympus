@@ -3,15 +3,40 @@ body {
 }
 
 .jumbotron {
-    background: url('../img/ski4.jpg');
-    height: 550px;
+    background: url("https://bigskyresort.com/assets//images/Big%20Sky/Social%20Images/Home.jpg");
+    height: 450px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    /* Not much browser support.. try implementing with sass mixins */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
-.modal button:focus {
+#secondImg {
+    background: url("https://cdn.statically.io/img/cameronscookware.com/wp-content/uploads/2019/12/snowboarding-wallpaper-awesome-hd-snowboarding-wallpapers-wallpaper-cave-inspiration-of-snowboarding-wallpaper-scaled.jpg");
+    height: 450px;
+    margin-top: -90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* Not much browser support.. try implementing with sass mixins */
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.container .card {
+    width: 90%;
+    margin-top: -120px;
+    padding: 50px 20px 10px 20px;
+    z-index: 1;
+    border-radius: 0;
+    /* Not much browser support.. try implementing with sass mixins */
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.modal button:focus, .navbar-toggler:focus {
     outline: none;
 }
+

@@ -15,31 +15,44 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><i class="fa fa-angle-double-up fa-lg"></i> Mt. Olympus</a>
-            <span class="order-lg-12 navbar-text ml-auto">
-                <a role="button" id="loginButton"><i class="fa fa-sign-in"></i> Login</a>
-            </span>        
-            <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#olympusNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="olympusNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-md"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-cloud fa-md"></i> Conditions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-clone fa-md"></i> Tickets & Passes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-industry fa-md"></i> Lessons & Rentals</a></li>
-                </ul>    
+    <div class="jumbotron jumbotron-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa fa-angle-double-up fa-lg"></i> Mt. Olympus</a>
+                <span class="order-lg-12 navbar-text ml-auto">
+                    <a role="button" id="loginButton"><i class="fa fa-sign-in"></i> Login</a>
+                </span>        
+                <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#olympusNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="olympusNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-md"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-cloud fa-md"></i> Conditions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-clone fa-md"></i> Tickets & Passes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-industry fa-md"></i> Lessons & Rentals</a></li>
+                    </ul>    
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- discount info card -->
+                <div class="card bg-dark text-white mx-auto pt-35">
+                    <h5 class="card-title">25% OFF ON ALL PASSES*</h5>
+                    <p class="card-text mb-0">For a limited time, we have reduced all 2020/2021 passes by 25%, click below to checkout available passes.<br><em>*offer expires 6/20/2021</em></p>
+                    <a class="col-4 col-md-3 col-lg-2 btn btn-primary btn-lg ml-auto" href="#">Buy Pass</a>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <!-- discount info card -->
-            </div>
+    <div class="container-fluid" id="secondImg">
+        <div class="row" >
+            
         </div>
     </div>
 
@@ -65,8 +78,8 @@
                                 <div class="col">
                                     <div class="col">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox">
-                                            <label class="form-check-label">Remember Me</label>
+                                            <input class="form-check-input" id="rememberCheckbox" type="checkbox">
+                                            <label class="form-check-label" for="rememberCheckbox">Remember Me</label>
                                         </div>
                                     </div>
                                 </div>
