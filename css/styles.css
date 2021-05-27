@@ -5,6 +5,7 @@ body {
 .jumbotron {
     background: url("https://bigskyresort.com/assets//images/Big%20Sky/Social%20Images/Home.jpg");
     height: 450px;
+    z-index: 2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,18 +17,19 @@ body {
 #secondImg {
     background: url("https://cdn.statically.io/img/cameronscookware.com/wp-content/uploads/2019/12/snowboarding-wallpaper-awesome-hd-snowboarding-wallpapers-wallpaper-cave-inspiration-of-snowboarding-wallpaper-scaled.jpg");
     height: 450px;
-    margin-top: -90px;
+    width: 100%;
+    margin-top: -65px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* Not much browser support.. try implementing with sass mixins */
-    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .container .card {
     width: 90%;
-    margin-top: -120px;
+    margin-top: -100px;
     padding: 50px 20px 10px 20px;
     z-index: 1;
     border-radius: 0;
@@ -36,7 +38,34 @@ body {
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
 
+#infoDeck {
+    margin-top: 9px ;
+}
+
+#infoDeck .card {
+    height: 470px;
+    margin: -25px 0px 55px 0px;
+    padding: 0px;
+    border-radius: 0;
+    color: white;
+    outline: white;
+}
+
+#infoConditions img{
+    margin-top: -40px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: #292b2c 1px solid;
+    border-bottom: #292b2c 1px solid;
+}
+
+#infoConditions .card {
+    margin-top: 50px;
+    height: 200px;
+}
+
 .modal button:focus, .navbar-toggler:focus {
     outline: none;
 }
-
