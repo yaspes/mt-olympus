@@ -19,6 +19,7 @@ body {
     height: 450px;
     width: 100%;
     margin-top: -65px;
+    margin-bottom: 15px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,33 +39,38 @@ body {
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
 
-#infoDeck {
+#olympusInfo {
     margin-top: 9px ;
 }
 
-#infoDeck .card {
+#olympusInfo .card {
     height: 470px;
-    margin: -25px 0px 55px 0px;
+    margin: 15px 0px 15px 0px;
     padding: 0px;
     border-radius: 0;
     color: white;
-    outline: white;
 }
 
-#infoConditions img{
-    margin-top: -40px;
+.carousel {
+    margin: 15px auto 25px auto;
+}
+
+#passInfo .card {
+    margin: 15px auto 15px auto;
+}
+
+/* #conditionImg img{
+    margin: 15px auto 15px auto;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-top: #292b2c 1px solid;
-    border-bottom: #292b2c 1px solid;
+    max-width: 750px;
+    border: #6c757d 1px solid;
 }
 
-#infoConditions .card {
-    margin-top: 50px;
-    height: 200px;
-}
+#conditionCard .card{
+    padding: 10px;
+    height: 250px;
+    width: 200px;
+} */
 
 .modal button:focus, .navbar-toggler:focus {
     outline: none;
