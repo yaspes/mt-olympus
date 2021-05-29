@@ -1,5 +1,4 @@
 body {
-    /* background: rgb(175, 174, 174); */
     background: #484c4c;
 }
 
@@ -84,6 +83,7 @@ body {
     width: 200px;
 }
 */
+
 .modal button:focus, .navbar-toggler:focus {
     outline: none;
 }
