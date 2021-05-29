@@ -1,5 +1,6 @@
 body {
-    background: rgb(175, 174, 174);
+    /* background: rgb(175, 174, 174); */
+    background: #484c4c;
 }
 
 .jumbotron {
@@ -40,7 +41,7 @@ body {
 }
 
 #olympusInfo {
-    margin-top: 9px ;
+    margin-top: 9px;
 }
 
 #olympusInfo .card {
@@ -51,6 +52,10 @@ body {
     color: white;
 }
 
+#olympusInfo .card-body {
+    padding-top: 5px;
+}
+
 .carousel {
     margin: 15px auto 25px auto;
 }
@@ -59,19 +64,26 @@ body {
     margin: 15px auto 15px auto;
 }
 
+.row-content {
+    margin: 20px auto 20px auto;
+    padding: 10px;
+}
+
 /* #conditionImg img{
     margin: 15px auto 15px auto;
     width: 100%;
     max-width: 750px;
     border: #6c757d 1px solid;
-}
+} 
 
 #conditionCard .card{
-    padding: 10px;
-    height: 250px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    margin-right: 0px;
+    height: 100px;
     width: 200px;
-} */
-
+}
+*/
 .modal button:focus, .navbar-toggler:focus {
     outline: none;
 }
