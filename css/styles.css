@@ -9,7 +9,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* Not much browser support.. try implementing with sass mixins */
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
@@ -23,7 +22,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* Not much browser support.. try implementing with sass mixins */
     -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
 }
@@ -34,7 +32,6 @@ body {
     padding: 50px 20px 10px 20px;
     z-index: 1;
     border-radius: 0;
-    /* Not much browser support.. try implementing with sass mixins */
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
@@ -67,22 +64,6 @@ body {
     margin: 20px auto 20px auto;
     padding: 10px;
 }
-
-/* #conditionImg img{
-    margin: 15px auto 15px auto;
-    width: 100%;
-    max-width: 750px;
-    border: #6c757d 1px solid;
-} 
-
-#conditionCard .card{
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    margin-right: 0px;
-    height: 100px;
-    width: 200px;
-}
-*/
 
 .modal button:focus, .navbar-toggler:focus {
     outline: none;
