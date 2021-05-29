@@ -5,4 +5,8 @@ $(function() {
     $('#loginButton').on('click', function() {
         $('#loginModal').modal('show');
     });
+
+    $('#headingOne').on('click', function() {
+        $('#collapseOne').collapse();
+    })
 });
