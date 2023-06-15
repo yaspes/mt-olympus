@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-    background: url("https://bigskyresort.com/assets//images/Big%20Sky/Social%20Images/Home.jpg");
+    background: url("../images/bigsky.jpg");
     height: 450px;
     z-index: 2;
     background-repeat: no-repeat;
@@ -14,10 +14,10 @@ body {
 }
 
 #secondImg {
-    background: url("https://cdn.statically.io/img/cameronscookware.com/wp-content/uploads/2019/12/snowboarding-wallpaper-awesome-hd-snowboarding-wallpapers-wallpaper-cave-inspiration-of-snowboarding-wallpaper-scaled.jpg");
+    background: url("../images/ski1.jpg");
     height: 450px;
     width: 100%;
-    margin-top: -65px;
+    margin-top: -85px;
     margin-bottom: 15px;
     background-repeat: no-repeat;
     background-position: center;
